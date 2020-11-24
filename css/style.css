@@ -186,4 +186,7 @@ header a{
     #sec_1{
         flex-wrap: wrap;
     }
+    .right_blocks{
+        width: 80%;
+    }
 }
