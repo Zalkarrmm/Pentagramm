@@ -1,0 +1,189 @@
+body{
+    margin: 0px;
+    background-color: rgb(204, 200, 200);
+}
+header{
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+header a{
+    background-color: grey;
+    flex: 1 ;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+#sec_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.banner1{
+    width: 70% ;
+    margin: 15px;
+    background: url("../img/showcase.jpg")center/cover fixed; 
+    height: 80vh;
+    padding: 30px;
+
+}
+.content{
+    color: white;
+    position: relative;
+    top: 35%;
+}
+.content h1{
+    font-size: 50px;
+
+}
+.content p{
+    font-size: 19px;
+    color: rgb(173, 173, 173);
+    font-weight: 200;
+}
+.read_more{
+    text-decoration: none;
+    cursor: pointer;
+    border: 0px;
+    outline: none;
+    padding: 10px 15px;
+    color: white;
+    background-color: rgba(26, 26, 26, 0.856);
+}
+.read_more:hover{
+    background-color: grey;
+    color:  rgba(26, 26, 26, 0.856);
+    transition: .5s ;
+}
+
+.right_blocks{
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+.two_blocks{    
+    background-color: rgb(223, 223, 223);
+    margin-top: 20px;
+    height: 280px;
+    border: 1px black solid;
+}
+.two_blocks h4{
+    font-size: 18px;
+    font-weight: bold;
+}
+.two_blocks h1{
+    font-size: 30px;
+}
+.two_blocks a{
+    text-decoration: none;
+    position: relative;
+    top: 40px;
+    padding: 15px 15px;
+    background-color: black;
+    color: white;
+}
+.two_blocks a:hover{
+    background-color: rgb(61, 61, 61);
+    font-weight: bold;
+    transition: .5s;
+}
+
+#sec_2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#sec_2 div{
+    margin: 20px 0px;
+    height: 300px;
+    border: 1px solid black;
+    flex-basis:  300px;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+    padding: 5px;
+}
+.four_blocks h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.four_blocks p{
+    position: relative;
+    top: 5px;
+    font-size: 23px;
+    line-height: 25x;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.644);
+}
+/* section3 */
+#sec_3{
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 40px 30px;
+}
+.img_back{
+    width: 150%;
+    height: 50vh;
+    background: url("../img/pic1.jpg")center/cover;
+}
+.right_text{
+    padding: 20px;
+}
+#sec_4{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.images{
+    flex-basis: 240px;
+    height: 30vh;
+    margin: 10px 0px;
+}
+.image1{
+    background: url("../img/1.jpg") center/cover ;
+
+}
+.image2{
+    background: url("../img/2.jpg") center/cover ;
+
+}
+.image3{
+    background: url("../img/3.jpg") center/cover ;
+
+}
+.image4{
+    background: url("../img/4.jpg") center/cover ;
+ 
+}
+.image5{
+    background: url("../img/5.jpg") center/cover ;
+
+}
+.image6{
+    background: url("../img/6.jpg") center/cover ;
+
+} 
+.image7{
+    background: url("../img/7.jpg") center/cover ;
+
+}
+.image8{
+    background: url("../img/8.jpg") center/cover ;
+
+}
+.image9{
+    background: url("../img/9.jpg") center/cover ;
+
+}
+@media screen and ( max-width: 600px ){
+    #sec_1{
+        flex-wrap: wrap;
+    }
+}
